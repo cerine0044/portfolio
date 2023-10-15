@@ -1,0 +1,193 @@
+/* Styles de base */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #0f0634;
+    color: #f7f0f0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation */
+
+.menu {
+    background-color: #f5ebeb;
+    color: #fff;
+}
+
+.menu ul li a {
+    color: #fff;
+}
+
+.menu ul li a:hover {
+    background-color: #41576f;
+    border-radius: 5px;
+}
+
+/* Liens */
+
+a {
+    text-decoration: floralwhite;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(16, 16, 58);
+    width: 100%;
+    max-height: 280px;
+    box-shadow: 1px;
+}
+
+.banner img {
+    max-width: 1000px;
+    height: auto;
+}
+
+/* Menu */
+
+.menu {
+
+    width: 100%;
+    height: auto;
+    background-color: rgba(26, 13, 50, 0.5);
+    position: relative;
+    min-width: 500px;
+}
+
+.menu ul {
+
+    text-align: center;
+    padding: 2px;
+}
+
+.menu ul li {
+    
+    display: inline;
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    display: inline-block;
+    color: rgb(250, 247, 247);
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: white;
+    background-color: rgba(3, 34, 76, 1);
+    border-radius: 5px;
+}
+
+
+/* Contenu principal */
+
+.principal {
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    padding: 20px;
+}
+
+.principal h1, .principal h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.principal ul {
+    margin-left: 0;
+}
+
+.principal ul li {
+    color: rgba(3, 34, 76, 1);
+    margin: 10px 0;
+}
+
+.principal a {
+    text-decoration: underline;
+    text-decoration-color: rgba(3, 34, 76, 1);
+    font-weight: bold;
+}
+
+.principal button {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    background-color: rgba(3, 34, 76, 1);
+    padding: 10px 0;
+}
+
+.footer p {
+    color: rgb(17, 16, 16);
+    font-weight: bold;
+}
+
+/* Images */
+
+.imgsolidaire {
+    text-align: center;
+}
+
+.imgsolidaire img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* IDs */
+
+ #socialmedia, #contact, #contactbox {
+    text-align: center;
+}
+
+#contactbox {
+    border: 1px solid rgba(3, 34, 76, 1);
+    border-radius: 100px;
+    padding: 100px;
+}
+
+#boutondon {
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.custom-card {
+    background-color: #fff; /* Couleur de fond de la carte */
+    border: 1px solid #ccc; /* Bordure de la carte */
+    border-radius: 10px; /* Coins arrondis de la carte */
+    margin: 100px; /* Marge entre les cartes */
+  }
+  
+  .custom-card .card-title {
+    color: #333; /* Couleur du titre de la carte */
+  }
+  
+  .custom-card .card-text {
+    color: #666; /* Couleur du texte de la carte */
+  }
+  

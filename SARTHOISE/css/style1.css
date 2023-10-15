@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	overflow-x: hidden;
+}
+
+h1 h2 h3 h4 h5 h6{
+	font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+.banner{
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	width: 100%;
+	height: 280px;
+	box-shadow: 1px;
+}
+
+.banner img{
+	width: 300px;
+}
+
+/* MENU */
+.menu{
+	
+	width: 100%;
+	height: 25px;
+	background-color: rgba(206,206,206,0.5);
+	position: relative;
+	min-width: 500px;
+}
+
+
+.menu ul {
+	float: left;
+	position: relative;
+	left: 50% ;
+	padding: 2px;
+	margin-left: -60px;
+
+}
+
+.menu ul li {
+	float: left;
+	position: relative;
+	list-style-type: none;
+	margin-left: 20px; 
+	left: -50% ;
+}
+
+.menu ul li a{
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	width: 150px;
+	height: 20px;
+
+}
+
+.menu ul li a:hover{
+	color: white;
+	background-color:rgba(3,34,76,1); 
+	border-radius: 5px;
+	box-shadow: 10px;
+}
+
+/* BANDEAU SARTHOISE */
+
+.banner2{
+	width: 100%;
+	height: 320px;
+	box-shadow: 5px;
+	background: url(../images/BanniereSarthoise.png) no-repeat center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	
+}
+
+/* CONTENU PRINCIPAL */
+
+.principal {
+	display: block;
+	width: 70%;
+	margin: auto;
+	text-align: justify;
+}
+
+.principal h1 ,h2 {
+	font-weight: normal; 
+	text-align: center;
+	padding: 30px;
+}
+
+.principal ul{
+	margin-left: 30px;
+}
+
+.principal ul li{
+	color: rgba(3,34,76,1);
+	margin: 10px;
+}
+
+.principal a {
+	text-decoration: underline;
+	text-decoration-color: rgba(3,34,76,1);
+	font-weight: bold;
+}
+
+.principal button {
+	text-align: center;
+}
+
+/* FOOTER */
+
+.footer {
+	margin-top: 50px;
+	display: block;
+	text-align: center;
+	background-color:rgba(3,34,76,1);
+	height: 60px;
+
+}
+
+.footer p {
+	color: white;
+	font-weight: bold;
+	position: relative;
+	top: 15px;
+}
+
+
+
